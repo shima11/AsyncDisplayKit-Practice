@@ -10,6 +10,7 @@
 		080D08B6BE0733A826C638BF /* Pods_AsyncDisplayKit_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB7B5A6B85C85E4D77D6C02 /* Pods_AsyncDisplayKit_Practice.framework */; };
 		290C3BB33E84C67280CAD615 /* Pods_AsyncDisplayKit_PracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F633049626C70B4A238CB43 /* Pods_AsyncDisplayKit_PracticeUITests.framework */; };
 		5EA744A32A0E159A5D485139 /* Pods_AsyncDisplayKit_PracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6690F855E7676320345E48B /* Pods_AsyncDisplayKit_PracticeTests.framework */; };
+		D41163921E7939A10085E9C9 /* ASDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41163911E7939A10085E9C9 /* ASDKViewController.swift */; };
 		D485C08A1E72BBF5002675A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485C0891E72BBF5002675A1 /* AppDelegate.swift */; };
 		D485C08C1E72BBF5002675A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485C08B1E72BBF5002675A1 /* ViewController.swift */; };
 		D485C0911E72BBF5002675A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D485C0901E72BBF5002675A1 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		8847174CB08A2EB2B17D1B5D /* Pods-AsyncDisplayKit-PracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-PracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKit-PracticeUITests/Pods-AsyncDisplayKit-PracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BB7B5A6B85C85E4D77D6C02 /* Pods_AsyncDisplayKit_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6690F855E7676320345E48B /* Pods_AsyncDisplayKit_PracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_PracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41163911E7939A10085E9C9 /* ASDKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDKViewController.swift; sourceTree = "<group>"; };
 		D485C0861E72BBF5002675A1 /* AsyncDisplayKit-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncDisplayKit-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D485C0891E72BBF5002675A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D485C08B1E72BBF5002675A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				D485C0891E72BBF5002675A1 /* AppDelegate.swift */,
 				D485C08B1E72BBF5002675A1 /* ViewController.swift */,
+				D41163911E7939A10085E9C9 /* ASDKViewController.swift */,
 				D485C0901E72BBF5002675A1 /* Assets.xcassets */,
 				D485C0921E72BBF5002675A1 /* LaunchScreen.storyboard */,
 				D485C0951E72BBF5002675A1 /* Info.plist */,
@@ -442,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41163921E7939A10085E9C9 /* ASDKViewController.swift in Sources */,
 				D485C08C1E72BBF5002675A1 /* ViewController.swift in Sources */,
 				D485C08A1E72BBF5002675A1 /* AppDelegate.swift in Sources */,
 			);

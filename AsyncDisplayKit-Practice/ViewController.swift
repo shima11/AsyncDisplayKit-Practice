@@ -28,6 +28,11 @@ final class ViewController: ASViewController<ASDisplayNode> {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+//        collectionNode = ASTableNode()
+//        collectionNode.frame = CGRect(x:0,y:0,width:200,height:200)
+//        view.addSubnode(collectionNode)
+//        collectionNode.dataSource = self
+//        collectionNode.delegate = self
 
     }
 
@@ -47,7 +52,11 @@ extension ViewController: ASTableDataSource {
 }
 
 extension ViewController: ASTableDelegate {
-    
+    func tableNode(_ tableNode: ASTableNode, didSelectRowAt indexPath: IndexPath) {
+        print("cell tapped")
+        let asdkViewController = ASDKViewController()
+        present(asdkViewController, animated: true, completion: nil)
+    }
 }
 
 extension ViewController: ASCollectionDataSource {
@@ -70,6 +79,10 @@ extension ViewController: ASCollectionDataSource {
 }
 
 extension ViewController: ASCollectionDelegate {
-    
+    func collectionNode(_ collectionNode: ASCollectionNode, didSelectItemAt indexPath: IndexPath) {
+        print("cell tapped")
+        let asdkViewController = ASDKViewController()
+        self.navigationController?.pushViewController(asdkViewController, animated: true)
+    }
 }
 
