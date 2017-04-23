@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AsyncDisplayKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>PINCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,12 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AsyncDisplayKit-PracticeTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-AsyncDisplayKit-PracticeUITests.xcscheme</key>
+		<key>Texture.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,37 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03A93DCB577C66F050AEE2BC64DB583B</key>
+		<key>33E5AC36362432D6B8369B8F3E8E32BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5232B3CB536810CA15CB2CC7453FD7AF</key>
+		<key>568185361EA6EEE89D2BC833905842FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57D8F0A478D4177C8E4CE10D8EDAF6DE</key>
+		<key>7D670B32F7AF2F269DF9FEB3A1B0C427</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75484E9FC8379B0447FF84F736CC0E85</key>
+		<key>A734EA92CB0E8B9883F6B87517BEC175</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FA3DD78576FC46452F92978362D36F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D863DF209AFF2C56879854880B5ABD64</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E0A59FEBE757722BE4BBBFADC6E5DD94</key>
+		<key>AFBE26E7425F21E1D755B69D69D670A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

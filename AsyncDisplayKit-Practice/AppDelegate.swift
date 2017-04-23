@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AsyncDisplayKit-Practice
 //
-//  Created by 島仁誠 on 2017/03/10.
+//  Created by 島仁誠 on 2017/04/23.
 //  Copyright © 2017年 jinsei shima. All rights reserved.
 //
 
@@ -16,14 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.backgroundColor = UIColor.white
-//        window.rootViewController = UINavigationController(rootViewController: ViewController())
-        window.rootViewController = ViewController()
-        window.makeKeyAndVisible()
-        self.window = window
-        
         return true
     }
 

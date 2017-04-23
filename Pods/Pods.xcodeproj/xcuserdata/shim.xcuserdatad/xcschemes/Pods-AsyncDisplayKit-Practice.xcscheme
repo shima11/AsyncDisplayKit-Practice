@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03A93DCB577C66F050AEE2BC64DB583B"
+               BlueprintIdentifier = "A734EA92CB0E8B9883F6B87517BEC175"
                BuildableName = "Pods_AsyncDisplayKit_Practice.framework"
                BlueprintName = "Pods-AsyncDisplayKit-Practice"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03A93DCB577C66F050AEE2BC64DB583B"
+            BlueprintIdentifier = "A734EA92CB0E8B9883F6B87517BEC175"
             BuildableName = "Pods_AsyncDisplayKit_Practice.framework"
             BlueprintName = "Pods-AsyncDisplayKit-Practice"
             ReferencedContainer = "container:Pods.xcodeproj">

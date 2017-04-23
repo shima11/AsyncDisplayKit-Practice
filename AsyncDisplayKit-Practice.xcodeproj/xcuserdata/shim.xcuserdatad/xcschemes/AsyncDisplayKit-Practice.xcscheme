@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D485C0851E72BBF5002675A1"
+               BlueprintIdentifier = "D44CC00B1EABB208002336C1"
                BuildableName = "AsyncDisplayKit-Practice.app"
                BlueprintName = "AsyncDisplayKit-Practice"
                ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D485C0991E72BBF5002675A1"
-               BuildableName = "AsyncDisplayKit-PracticeTests.xctest"
-               BlueprintName = "AsyncDisplayKit-PracticeTests"
-               ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D485C0A41E72BBF5002675A1"
-               BuildableName = "AsyncDisplayKit-PracticeUITests.xctest"
-               BlueprintName = "AsyncDisplayKit-PracticeUITests"
-               ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D485C0851E72BBF5002675A1"
+            BlueprintIdentifier = "D44CC00B1EABB208002336C1"
             BuildableName = "AsyncDisplayKit-Practice.app"
             BlueprintName = "AsyncDisplayKit-Practice"
             ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D485C0851E72BBF5002675A1"
+            BlueprintIdentifier = "D44CC00B1EABB208002336C1"
             BuildableName = "AsyncDisplayKit-Practice.app"
             BlueprintName = "AsyncDisplayKit-Practice"
             ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D485C0851E72BBF5002675A1"
+            BlueprintIdentifier = "D44CC00B1EABB208002336C1"
             BuildableName = "AsyncDisplayKit-Practice.app"
             BlueprintName = "AsyncDisplayKit-Practice"
             ReferencedContainer = "container:AsyncDisplayKit-Practice.xcodeproj">

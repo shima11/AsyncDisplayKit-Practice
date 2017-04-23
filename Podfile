@@ -6,17 +6,7 @@ target 'AsyncDisplayKit-Practice' do
   use_frameworks!
 
   # Pods for AsyncDisplayKit-Practice
-  
-  pod 'AsyncDisplayKit'
 
-  target 'AsyncDisplayKit-PracticeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'AsyncDisplayKit-PracticeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod "Texture"
 
 end
