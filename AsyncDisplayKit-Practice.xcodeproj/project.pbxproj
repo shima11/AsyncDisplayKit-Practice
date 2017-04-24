@@ -12,6 +12,8 @@
 		D44CC0151EABB208002336C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44CC0131EABB208002336C1 /* Main.storyboard */; };
 		D44CC0171EABB208002336C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44CC0161EABB208002336C1 /* Assets.xcassets */; };
 		D44CC01A1EABB208002336C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44CC0181EABB208002336C1 /* LaunchScreen.storyboard */; };
+		D4B752A21EADBE1D002D730D /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B752A11EADBE1D002D730D /* CollectionViewLayout.swift */; };
+		D4B752A41EADBF26002D730D /* CollectionViewLayoutInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B752A31EADBF26002D730D /* CollectionViewLayoutInspector.swift */; };
 		D762F318DD85B53825CCF163 /* Pods_AsyncDisplayKit_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42614A4E5E943A89E1FE401 /* Pods_AsyncDisplayKit_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		D44CC0161EABB208002336C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D44CC0191EABB208002336C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44CC01B1EABB208002336C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B752A11EADBE1D002D730D /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
+		D4B752A31EADBF26002D730D /* CollectionViewLayoutInspector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutInspector.swift; sourceTree = "<group>"; };
 		F42614A4E5E943A89E1FE401 /* Pods_AsyncDisplayKit_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,8 @@
 			children = (
 				D44CC00F1EABB208002336C1 /* AppDelegate.swift */,
 				D44CC0111EABB208002336C1 /* ViewController.swift */,
+				D4B752A11EADBE1D002D730D /* CollectionViewLayout.swift */,
+				D4B752A31EADBF26002D730D /* CollectionViewLayoutInspector.swift */,
 				D44CC0131EABB208002336C1 /* Main.storyboard */,
 				D44CC0161EABB208002336C1 /* Assets.xcassets */,
 				D44CC0181EABB208002336C1 /* LaunchScreen.storyboard */,
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B752A21EADBE1D002D730D /* CollectionViewLayout.swift in Sources */,
 				D44CC0121EABB208002336C1 /* ViewController.swift in Sources */,
+				D4B752A41EADBF26002D730D /* CollectionViewLayoutInspector.swift in Sources */,
 				D44CC0101EABB208002336C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
