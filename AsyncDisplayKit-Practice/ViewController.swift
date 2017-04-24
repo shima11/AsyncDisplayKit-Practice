@@ -11,6 +11,8 @@ import AsyncDisplayKit
 
 class ViewController: UIViewController {
 
+    var _sections = [[UIImage]]()
+
     let collectionNode: ASCollectionNode!
 
     let layoutInspector = CollectionViewLayoutInspector()
@@ -27,6 +29,17 @@ class ViewController: UIViewController {
         super.init(coder: aDecoder)
 
         layout.delegate = self
+
+        _sections.append([]);
+        var section = 0
+        for idx in 0 ..< kNumberOfImages {
+            let name = String(format: "image_%d.jpg", idx)
+            _sections[section].append(UIImage(named: name)!)
+            if ((idx + 1) % 5 == 0 && idx < kNumberOfImages - 1) {
+                section += 1
+                _sections.append([])
+            }
+        }
 
         collectionNode.dataSource = self
         collectionNode.delegate = self
@@ -60,18 +73,20 @@ class ViewController: UIViewController {
 extension ViewController: ASCollectionDataSource {
 
     func numberOfSections(in collectionNode: ASCollectionNode) -> Int {
-        return 3
+        return _sections.count
     }
 
     func collectionNode(_ collectionNode: ASCollectionNode, numberOfItemsInSection section: Int) -> Int {
-        return 12
+        return _sections[section].count
     }
-
+    
     func collectionNode(_ collectionNode: ASCollectionNode, nodeForItemAt indexPath: IndexPath) -> ASCellNode {
-        let cell = ASCellNode()
-        cell.backgroundColor = UIColor.lightGray
-        cell.bounds = CGRect(origin: .zero, size: CGSize(width: 80, height: 80))
-        return cell
+//        let cell = ASCellNode()
+//        cell.backgroundColor = UIColor.lightGray
+//        cell.bounds = CGRect(origin: .zero, size: CGSize(width: 80, height: 80))
+//        return cell
+        let image = _sections[indexPath.section][indexPath.item]
+        return ImageCellNode(with: image)
     }
 
     func collectionNode(_ collectionNode: ASCollectionNode, nodeForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> ASCellNode {
@@ -92,8 +107,8 @@ extension ViewController: ASCollectionDelegate {
 
 extension ViewController: CollectionViewLayoutDelegate {
     func collectionView(_ collectionView: UICollectionView, layout: CollectionViewLayout, originalItemSizeAtIndexPath: IndexPath) -> CGSize {
-//        return _sections[originalItemSizeAtIndexPath.section][originalItemSizeAtIndexPath.item].size
-        return CGSize(width: 120, height: 120)
+        return _sections[originalItemSizeAtIndexPath.section][originalItemSizeAtIndexPath.item].size
+//        return CGSize(width: 120, height: 120)
     }
 }
 
