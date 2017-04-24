@@ -10,15 +10,29 @@ import UIKit
 import AsyncDisplayKit
 
 class ImageCellNode: ASCellNode {
+
     let imageNode = ASImageNode()
+
     required init(with image : UIImage) {
+
         super.init()
+
         imageNode.image = image
-        self.addSubnode(self.imageNode)
+        addSubnode(imageNode)
+    }
+
+    override func didLoad() {
+        super.didLoad()
+
+        imageNode.layer.cornerRadius = 8
+//        imageNode.layer.masksToBounds = true
+        imageNode.clipsToBounds = true
     }
 
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
+
         let imageSize = imageNode.image?.size
+
         print("imageNode= \(imageNode.bounds), image=\(String(describing: imageSize))")
 
         var imageRatio: CGFloat = 0.5
